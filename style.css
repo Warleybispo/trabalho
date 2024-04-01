@@ -1,0 +1,87 @@
+
+    .h-menu{
+        background-image: url(fundo.jpg);
+        background-size: 100%;
+            
+        }
+        .h-menu ul{
+            background-color: #575555;
+            overflow: hidden;
+        }
+        .h-menu li {
+            display: inline;
+            float: left;
+        }
+        .h-menu li a{                
+            display: block; 
+            color: white;
+            padding: 16px 16px;
+            text-decoration: none;
+        }
+        .h-menu li:hover{
+            background-color: rgb(26, 26, 26);
+        }
+        .h-menu li.active{
+            background-color: black;
+        }
+
+        .h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+        }
+
+        .center{
+            text-align: center;
+        }
+        .center2{
+            margin: 4;
+        }
+        .borda1{
+            width: 60%;
+            border-radius: 10% ;
+            color: #e7e7e7;
+            margin: 0 auto;
+        }
+
+        .borda2{
+            border: solid 3px rgb(86, 86, 119);
+            margin:center;
+        }
+        .borda3{
+            border: solid 3px rgb(86, 86, 119);
+            border-radius: 100%;
+        }
+        
+        .fundo{
+            width: 100vw;
+            background-size: 50;
+            background-repeat: no-repeat;
+        }
+        .redon{
+            border-radius: 40%;
+        }
+        * {
+            padding:50;
+            margin:0;
+        }        
+        body{
+            color: rgb(33, 32, 32);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .h-menu{
+            margin: 0 auto;
+            
+        }
+        .h-menu ul{
+            margin: 5;
+            padding:0;
+            background-color: #575555;
+            overflow: hidden;
+        }
+        .h-menu li {
+            display: inline;
+            float: left;
+        }
+
+
+
